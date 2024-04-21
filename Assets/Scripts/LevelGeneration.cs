@@ -10,9 +10,8 @@ public class generation : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        // generate 5 from the rooms array, and place them in the scene, don't repeat the same room twice
         int lastRoom = -1;
-        int randomRoom = 0;
+        int randomRoom;
         for (int i = 0; i < 5; i++)
         {
             while(true) 
@@ -36,6 +35,6 @@ public class generation : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-       
+        
     }
 }
