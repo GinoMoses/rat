@@ -7,7 +7,6 @@ public class generation : MonoBehaviour
 
     public GameObject[] rooms;
 
-    // Start is called before the first frame update
     void Start()
     {
         int lastRoom = -1;
@@ -32,7 +31,6 @@ public class generation : MonoBehaviour
         }
     }
 
-    // Update is called once per frame
     void Update()
     {
         
